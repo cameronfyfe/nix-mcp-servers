@@ -31,5 +31,5 @@ Contributions of additional MCP servers are welcome.
 
 ## Related Projects
 
-- https://github.com/aloshy-ai/nix-mcp-servers
-- https://github.com/natsukium/mcp-servers-nix
+- [github.com/aloshy-ai/nix-mcp-servers](https://github.com/aloshy-ai/nix-mcp-servers)
+- [github.com/natsukium/mcp-servers-nix](https://github.com/natsukium/mcp-servers-nix)
