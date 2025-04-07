@@ -30,7 +30,7 @@
           });
         };
 
-        packages = callPackage ./packages { };
+        packages = callPackage ./pkgs { };
 
       }));
 }
