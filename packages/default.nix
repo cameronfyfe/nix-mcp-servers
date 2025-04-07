@@ -1,6 +1,10 @@
 { pkgs, callPackage }:
 
-{
-  github-mcp-server = callPackage ./github-mcp-server { };
-  mcp-server-tmdb = callPackage ./mcp-server-tmdb { };
+rec {
+  # reference servers
+  mcp-server-filesystem = callPackage ./reference-servers/filesystem.nix { };
+
+  # servers
+  github-mcp-server = callPackage ./servers/github-mcp-server { };
+  mcp-server-tmdb = callPackage ./servers/mcp-server-tmdb { };
 }

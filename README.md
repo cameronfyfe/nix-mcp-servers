@@ -21,5 +21,6 @@ MCP servers can be installed on a NixOS system or with [home-manager](https://gi
 
 ```present scripts/list-pkgs.sh
 github-mcp-server
+mcp-server-filesystem
 mcp-server-tmdb
 ```
