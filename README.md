@@ -21,7 +21,7 @@ Add the following to your flake.nix:
 inputs.nix-mcp-servers.url = "github:cameronfyfe/nix-mcp-servers";
 ```
 
-And any mcp server packages to your `environment.systemPackages` or `home.packages`:
+And add any mcp server packages to your `environment.systemPackages` or `home.packages`:
 
 ```
 [
