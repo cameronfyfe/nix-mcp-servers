@@ -2,7 +2,6 @@
 , buildNpmPackage
 , typescript
 , writeScriptBin
-,
 }:
 
 buildNpmPackage rec {
