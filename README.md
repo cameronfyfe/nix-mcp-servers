@@ -15,7 +15,21 @@ nix run github:cameronfyfe/nix-mcp-server#github-mcp-server -- stdio
 
 MCP servers can be installed on a NixOS system or with [home-manager](https://github.com/nix-community/home-manager) by referencing this flake.
 
-    TODO
+Add the following to your flake.nix:
+
+```
+inputs.nix-mcp-servers.url = "github:cameronfyfe/nix-mcp-servers";
+```
+
+And any mcp server packages to your `environment.systemPackages` or `home.packages`:
+
+```
+[
+  ...
+  inputs.nix-mcp-servers.packages.${system}.github-mcp-server
+  ...
+]
+```
 
 ## MCP Servers List
 
