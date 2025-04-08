@@ -35,6 +35,7 @@ And add any mcp server packages to your `environment.systemPackages` or `home.pa
 
 ```present scripts/list-pkgs.sh
 github-mcp-server
+mcp-neo4j-cypher
 mcp-server-filesystem
 mcp-server-tmdb
 ```
