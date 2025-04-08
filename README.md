@@ -31,6 +31,8 @@ And add any mcp server packages to your `environment.systemPackages` or `home.pa
 ]
 ```
 
+Example nixos-config that installs MCP servers using this flake [here](https://github.com/cameronfyfe/nixos-configs)
+
 ## MCP Servers List
 
 ```present scripts/list-pkgs.sh
