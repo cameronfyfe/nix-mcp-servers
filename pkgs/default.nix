@@ -3,6 +3,7 @@
 rec {
   # reference servers
   mcp-server-filesystem = callPackage ./reference-servers/filesystem.nix { };
+  mcp-server-postgres = callPackage ./reference-servers/postgres.nix { };
 
   # servers
   github-mcp-server = callPackage ./servers/github-mcp-server { };
