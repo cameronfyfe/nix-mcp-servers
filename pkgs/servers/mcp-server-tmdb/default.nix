@@ -3,7 +3,8 @@
 }:
 
 buildNpmPackage {
-  name = "mcp-server-tmdb";
+  pname = "mcp-server-tmdb";
+  version = "1.0.0";
 
   src = fetchFromGitHub {
     owner = "Laksh-star";

@@ -4,7 +4,6 @@
 
 python3Packages.buildPythonApplication rec {
   pname = "mcp-neo4j-cypher";
-
   version = "0.1.1";
 
   src = fetchFromGitHub

@@ -6,7 +6,6 @@
 
 buildNpmPackage rec {
   pname = "mcp-server-postgres";
-
   version = "0.6.2";
 
   src = fetchFromGitHub {

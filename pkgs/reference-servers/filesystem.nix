@@ -6,7 +6,6 @@
 
 buildNpmPackage rec {
   pname = "mcp-server-filesystem";
-
   version = "0.6.2";
 
   src = fetchFromGitHub {

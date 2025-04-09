@@ -5,7 +5,6 @@
 
 buildNpmPackage rec {
   pname = "mcp-server-playwright";
-
   version = "0.0.10";
 
   src = fetchFromGitHub {
