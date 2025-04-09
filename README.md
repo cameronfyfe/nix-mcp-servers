@@ -39,6 +39,7 @@ Example nixos-config that installs MCP servers using this flake [here](https://g
 github-mcp-server
 mcp-neo4j-cypher
 mcp-server-filesystem
+mcp-server-playwright
 mcp-server-postgres
 mcp-server-tmdb
 ```
