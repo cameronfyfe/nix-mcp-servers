@@ -38,9 +38,25 @@ Example nixos-config that installs MCP servers using this flake [here](https://g
 ```present scripts/list-pkgs.sh
 github-mcp-server
 mcp-neo4j-cypher
+mcp-server-brave-search
+mcp-server-everart
+mcp-server-everything
+mcp-server-fetch
 mcp-server-filesystem
+mcp-server-gdrive
+mcp-server-git
+mcp-server-github
+mcp-server-gitlab
+mcp-server-google-maps
+mcp-server-memory
 mcp-server-playwright
 mcp-server-postgres
+mcp-server-puppeteer
+mcp-server-sentry
+mcp-server-sequentialthinking
+mcp-server-slack
+mcp-server-sqlite
+mcp-server-time
 mcp-server-tmdb
 ```
 
